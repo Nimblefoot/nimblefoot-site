@@ -13,7 +13,7 @@ export default function Home() {
           fill
           placeholder="blur"
           blurDataURL="/lowres.webp"
-          loading="eager"
+          priority
           style={{ objectPosition: "bottom", objectFit: "cover" }}
         />
       </div>
