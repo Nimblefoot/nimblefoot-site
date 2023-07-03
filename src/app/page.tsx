@@ -2,12 +2,11 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main
-      className="flex min-h-screen flex-col items-center justify-center"
-      //averaged color of bg image
-      style={{ backgroundColor: "#47565a" }}
-    >
-      <div className="-z-50 w-full h-full fixed">
+    <main className="flex min-h-screen flex-col items-center justify-center">
+      <div /** background */
+        className="-z-50 w-full h-full fixed" //averaged color of bg image
+        style={{ backgroundColor: "#47565a" }}
+      >
         <Image
           src="/output2.webp"
           alt=""
