@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-12 bg-cover bg-[url(/nimblefoot_bg.webp)] bg-bottom">
+    <main className="flex min-h-screen flex-col items-center justify-center p-12 bg-cover bg-[url(/output2.webp)] bg-bottom">
       <div className="bg-white rounded-xl p-6 max-w-md w-full">
         <h1 className="text-2xl mb-3">Nimblefoot Research</h1>
         <div>
