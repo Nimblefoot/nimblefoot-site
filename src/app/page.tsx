@@ -1,7 +1,17 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-12 bg-cover bg-[url(/output2.webp)] bg-bottom">
-      <div className="bg-white rounded-xl p-6 max-w-md w-full">
+    <main className="flex min-h-screen flex-col items-center justify-center">
+      <div className="-z-50 w-full h-full fixed">
+        <Image
+          src="/output2.webp"
+          alt=""
+          fill
+          style={{ objectPosition: "bottom", objectFit: "cover" }}
+        />
+      </div>
+      <div className="bg-white rounded-xl p-6 m-12 max-w-md w-full">
         <h1 className="text-2xl mb-3">Nimblefoot Research</h1>
         <div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
