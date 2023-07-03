@@ -8,6 +8,9 @@ export default function Home() {
           src="/output2.webp"
           alt=""
           fill
+          placeholder="blur"
+          blurDataURL="/lowres.webp"
+          loading="eager"
           style={{ objectPosition: "bottom", objectFit: "cover" }}
         />
       </div>
