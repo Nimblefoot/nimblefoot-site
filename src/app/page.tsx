@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function Home() {
   return (
@@ -10,10 +10,12 @@ export default function Home() {
         <Image
           src="/output2.webp"
           alt=""
-          fill
+          layout="fill"
           placeholder="blur"
           blurDataURL="/lowres.webp"
           priority
+          objectFit="cover"
+          objectPosition="bottom"
           style={{ objectPosition: "bottom", objectFit: "cover" }}
         />
       </div>
