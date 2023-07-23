@@ -20,7 +20,7 @@ export default function Home() {
         />
       </div>
       <div className="bg-white rounded-xl p-6 m-12">
-        <h1 className="text-2xl mb-3">Nimblefoot Research</h1>
+        <h1 className="text-3xl mb-3">Nimblefoot Research</h1>
         <div className="whitespace-nowrap">
           <div>
             hihi. we are a small and mighty research and software group.
