@@ -37,11 +37,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="text-gray-400 text-center m-4 text-lg">✧ ✧ ✧</div>
-        <div>
-          what should we stick our noses into next? let us know:{" "}
-          <b>hihi@nimblefoot.xyz</b>
-        </div>
+        <div className="text-gray-400 text-center m-4 text-xl">✧ ✧ ✧</div>
+          <div>
+            what should we stick our noses into next? let us know:{" "}
+            <b>hihi@nimblefoot.xyz</b>
+          </div>
 
         <div></div>
       </div>
