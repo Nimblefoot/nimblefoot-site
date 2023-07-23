@@ -20,8 +20,8 @@ export default function Home() {
         />
       </div>
       <div className="bg-white rounded-xl p-6 m-12">
-        <h1 className="text-3xl mb-3">Nimblefoot Research</h1>
-        <div className="whitespace-nowrap">
+        <h1 className="text-3xl mb-4">Nimblefoot Research</h1>
+        <div className="whitespace-nowrap text-lg">
           <div>
             hihi. we are a small and mighty research and software group.
           </div>
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="text-gray-400 text-center m-2">✧ ✧ ✧</div>
+        <div className="text-gray-400 text-center m-3 text-lg">✧ ✧ ✧</div>
         <div>
           what should we stick our noses into next? let us know:{" "}
           <b>hihi@nimblefoot.xyz</b>
