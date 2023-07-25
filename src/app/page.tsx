@@ -23,7 +23,7 @@ export default function Home() {
         <h1 className="text-3xl mb-4">Nimblefoot Research</h1>
         <div className="whitespace-nowrap text-xl">
           <div>
-            we are a small and friendly research, trading and software group.
+            we are a small research, trading and software group.
           </div>
           <div>we specialize in:</div>
           <ul>
@@ -33,15 +33,16 @@ export default function Home() {
           </ul>
           <div>
             our primary interest is Solana due to its exciting ecosystem and
-            architecture. Fastest chain is best chain.
+            architecture.
           </div>
         </div>
 
         <div className="text-gray-400 text-center m-4 text-xl">✧ ✧ ✧</div>
-          <div>
-            what should we stick our noses into next? let us know:{" "}
-            <b>hihi@nimblefoot.xyz</b>
-          </div>
+
+        <div className="text-xl">
+          what should we stick our noses into next? let us know:{" "}
+          <b>hihi@nimblefoot.xyz</b>
+        </div>
 
         <div></div>
       </div>
